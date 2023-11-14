@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+html, body {
+    width:100%;
+    height:100%;
+    background:#faf8fb;
+    overflow:hidden;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+    .align {
+        width: 100%;
+        height: 100%;
+        overflow:hidden;
+        /*background:#faf8fb;*/
+       background-image: linear-gradient(to right,#221f22,#15041e);
+    }
+
+    svg {
+        opacity:0;
+        position:absolute;
+        width:35%;
+        max-height:40%;
+        left:55%;
+        top:55%;
+        transform:translateY(-50%);
+       
+        
+    }
+    
+  select {
+    width:100%; /* Adjust the width as needed */
+    padding: 10px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 50px;
+    transform: translateX(20px);
+   
+  }
+  
+  .container form .form-row{
+    display: flex;
+    margin: 32px 0;
+    justify-content: space-between;
+  }
+ input{
+    width: 100%;
+    height: 40px;
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  
+  form {
+    border: 2px solid rgba(192, 190, 190, 0.666);
+    border-radius: 10px;
+    background-color: rgba(173, 171, 171, 0.363);
+    width: 550px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(174, 172, 172, 0.5);
+    flex-direction: column;
+    margin: 40px 13px; /* Add some spacing to the form on the left */
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+    background-clip: padding-box; /* Ensure the blur is contained within the element */
+}
+
+  
+  /* Apply general styles to the form */
+    
+  .container {
+   
+    width:1000px;
+    position: relative;
+    align-items: flex-start;
+   display: flex;
+   flex-direction: column;
+   margin: 0 150px;
+  
+  }
+  
+  /* Apply styles to form groups */
+  .form-group {
+    margin-bottom: 10px;
+ margin-left: 20px;
+    transform: translateX(-20px);
+  }
+  
+  /* Style labels */
+  label {
+    display: block;
+    margin-bottom: 3px;
+    transform: translateX(20px);
+  }
+  
+  /* Style input fields */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 20px;
+    background-color: #fff;
+    font-size: 16px;
+  }
+  input[type="number"] {
+    width: 100%; /* Adjust the width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+  }
+  
+  
+  /* Style 10the Submit button */
+  button[type="submit"] {
+    background-color: #224469; /* Adjust the button color */
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 19px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  /* Change button appearance on hover */
+  button[type="submit"]:hover {
+    background-color: #7a9fc7; /* Adjust the hover color */
+  }
+  
+  /* Center the form horizontally */
+
+  
+
+
+  
+  h1 {
+    margin: 1em;
+    color: white;
+    opacity: 0.7;
+    text-shadow: 0 1px 1px black;
+  }
+
+  .Result{
+    position:absolute;
+        width:35%;
+        max-height:40%;
+        left:65%;
+        top:80%;
+        font-size: 30px;
+        color: white;
+        text-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+  }
